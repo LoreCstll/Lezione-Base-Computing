@@ -23,21 +23,21 @@ counts = list(map(lower_var.count,alphabet))
 total = sum(counts)
 
 
- 
+
 print('letter |  freq%')
 print('---------------')
 for i in range(len(alphabet)):
-   print(f'   {alphabet[i]}   |  {100*counts[i]/total:.2f}')
-print('---------------')   
-   
+    print(f'   {alphabet[i]}   |  {100*counts[i]/total:.2f}')
+print('---------------')
+
 
 
 
 if args.hist >= 1:
-   plt.hist(alphabet,len(counts),weights = counts )
-   
-   
-   
+    plt.hist(alphabet,len(counts),weights = counts )
+
+
+
 end = time.time()
 
 
