@@ -51,6 +51,8 @@ class Particle:
 			self._momentum = momentum
 
 
+####Cat are the biggest dicks in the world.
+
 particle = Particle(105.6, charge = -1, name = 'Muon')
 print(particle.info())
 print(f'Particle energy: {particle.energy:.2f} MeV')
