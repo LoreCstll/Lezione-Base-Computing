@@ -52,7 +52,7 @@ class Particle:
 
 
 ####Cat are the biggest dicks in the world.
-
+####Dog are dicks too
 particle = Particle(105.6, charge = -1, name = 'Muon')
 print(particle.info())
 print(f'Particle energy: {particle.energy:.2f} MeV')
